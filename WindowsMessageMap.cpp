@@ -1,4 +1,4 @@
-#include "WindowsMessageMap.h"
+/*#include "WindowsMessageMap.h"
 #include <Windows.h>
 #include <string>
 #include <sstream>
@@ -220,4 +220,4 @@ std::string WindowsMessageMap::operator()(DWORD msg, LPARAM lp, WPARAM wp) const
 	oss << "   WP: 0x" << std::hex << std::setfill('0') << std::setw(8) << wp << std::endl;
 
 	return oss.str();
-}
+}*/
